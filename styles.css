@@ -1,0 +1,46 @@
+.blue {
+  background: rgb(49, 49, 170);
+  font-size: 300%;
+  text-align: center;
+  color: rgb(221, 221, 221);
+}
+
+.glyphicon-star {
+  font-size: 20px;
+}
+
+.centered {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bg {
+  background-image: url(https://mag.eravel.com/wp-content/uploads/2018/07/Sports-insuranc-eravel-com.jpg);
+  min-height: 100vh
+}
+
+/* .container { 
+  padding-top: 20vh;
+}*/
+
+.darkG {
+  background: rgb(20, 20, 20);
+  color: rgb(151, 151, 151);
+  font-size: 19px;
+}
+
+.right {
+  text-align: right;
+}
+
+.join {
+  font-size: 18px;
+}
+
+.h40 {
+  height: 40vh;
+  background-image: url("https://media.idownloadblog.com/wp-content/uploads/2017/03/Google-Maps-locaiaton-sharing-image-003.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
