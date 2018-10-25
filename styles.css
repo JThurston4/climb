@@ -1,12 +1,62 @@
+.top-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: rgb(29, 28, 28);
+  color: rgb(218, 208, 208);
+  font-size: 19px;
+  text-shadow: 2px 2px 2px black;
+  min-height: 10vh;
+}
+
+.abtJoin {
+font-size: 20px;
+margin-left: .5rem;
+margin-right: .5rem;
+text-align: right;
+}
+
+.icons-topbar {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.bg-img {
+  background-image: url(https://mag.eravel.com/wp-content/uploads/2018/07/Sports-insuranc-eravel-com.jpg);
+  background-size: cover;
+  background-position: right top;
+}
+
+.imgText {
+  font-size: 30px;
+  text-align: center;
+  color: rgba(255, 255, 255, .6);
+  text-shadow: 1px 1px 1px rgb(0, 0, 0);
+}
+
 .blue {
-  background: rgb(49, 49, 170);
+  background: rgb(101, 101, 101);
   font-size: 300%;
   text-align: center;
   color: rgb(221, 221, 221);
+  text-shadow: 3px 3px 2px black;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 40vh;
 }
 
-.glyphicon-star {
-  font-size: 20px;
+.mapImg {
+  height: 40vh;
+  background-image: url("https://www.lifewire.com/thmb/Pfr8XIxLR_G8ZbonSRefcw1jzm8=/4948x2480/filters:fill(auto,1)/mapsdirectionspart1-56cd4d395f9b5879cc5bd51a.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.contactBtn {
+  display:flex;
+  justify-content: center;
 }
 
 .centered {
@@ -15,46 +65,21 @@
   align-items: center;
 }
 
-.bg {
-  background-image: url(https://mag.eravel.com/wp-content/uploads/2018/07/Sports-insuranc-eravel-com.jpg);
-  min-height: 100vh
-}
-
-/* .container { 
-  padding-top: 20vh;
-}*/
-
-.darkG {
-  background: rgb(61, 60, 60);
-  color: rgb(218, 208, 208);
-  font-size: 19px;
-}
-
-.right {
-  text-align: right;
-}
-
-.join {
-  font-size: 18px;
-}
-
-.h40 {
-  height: 40vh;
-  background-image: url("https://media.idownloadblog.com/wp-content/uploads/2017/03/Google-Maps-locaiaton-sharing-image-003.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
 .footer {
   background: rgb(29, 28, 28);
   color: rgb(196, 192, 192);
   font-size:30px;
   text-align: center;
+  display: flex;
+  align-items: center;
 }
 
-.imgText {
-  font-size: 30px;
-  text-align: center;
-  color: rgb(74, 82, 88);
+.social {
+  display: flex;
+  justify-content: flex-start;
+}
 
+.icons {
+  margin-left: .5rem;
+  margin-right: .5rem;
 }
