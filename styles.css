@@ -56,7 +56,7 @@ text-align: right;
 
 .contactBtn {
   display:flex;
-  justify-content: center;
+  justify-content: flex-end;
 }
 
 .centered {
