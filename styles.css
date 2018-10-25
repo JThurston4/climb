@@ -25,8 +25,8 @@
 }*/
 
 .darkG {
-  background: rgb(20, 20, 20);
-  color: rgb(151, 151, 151);
+  background: rgb(61, 60, 60);
+  color: rgb(218, 208, 208);
   font-size: 19px;
 }
 
@@ -43,4 +43,18 @@
   background-image: url("https://media.idownloadblog.com/wp-content/uploads/2017/03/Google-Maps-locaiaton-sharing-image-003.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.footer {
+  background: rgb(29, 28, 28);
+  color: rgb(196, 192, 192);
+  font-size:30px;
+  text-align: center;
+}
+
+.imgText {
+  font-size: 30px;
+  text-align: center;
+  color: rgb(74, 82, 88);
+
 }
