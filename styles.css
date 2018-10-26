@@ -25,6 +25,7 @@ text-align: right;
   background-image: url(https://mag.eravel.com/wp-content/uploads/2018/07/Sports-insuranc-eravel-com.jpg);
   background-size: cover;
   background-position: right top;
+  min-height: 80vh;
 }
 
 .imgText {
@@ -43,7 +44,7 @@ text-align: right;
   display:flex;
   align-items: center;
   justify-content: center;
-  min-height: 40vh;
+  min-height: 22vh;
 }
 
 .mapImg {
@@ -62,7 +63,8 @@ text-align: right;
 .centered {
   display: flex;
   justify-content: center;
-  align-items: center;
+  /* align-items: center; */
+  margin-top: 5vh;
 }
 
 .footer {
